@@ -15,7 +15,6 @@ lazy val root = (project in file("."))
 scalacOptions ++= Seq(
   "-deprecation",     // Emit warning and location for usages of deprecated APIs.
   "-explaintypes",    // Explain type errors in more detail.
-  "-Ywarn-dead-code",  // Warn when dead code is identified.
   "-Xfatal-warnings" // Fail the compilation if there are any warnings.
 )
 
